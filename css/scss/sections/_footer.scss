@@ -1,0 +1,36 @@
+footer{
+    display: grid;
+
+    .menu-links{
+        display: flex;
+        gap: 50px;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+
+    .silicon-img{
+        margin-left: 650px;
+    }
+
+    .app-download{
+        display: flex;
+        margin-left: 515px;
+        margin-top: 80px;
+        gap: 50px;
+    }
+
+    .social-media{
+        display: flex;
+        gap: 20px;
+        margin-top: 50px;
+        margin-left: 600px;
+    }
+
+    p{
+        padding-left: 200px;
+        text-align: center;
+        margin-right: 325px;
+        margin-top: 50px;
+    }
+}
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="">
+    <meta name="author" content="Abdirahman">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a041cc045c.js" crossorigin="anonymous"></script>
+    <link href="css/layout.min.css" rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<body>
+    <section class="contact-us">
+        <div class="content">
+            <header>
+                <div class="container">
+                    <a class="logo" href="contact.html"><img src="images/logo/silicon-logo-light_theme.svg"
+                            alt="silicon logotype"></a>
+                    <nav class="menu">
+                        <div class="menu-links">
+                            <a class="nav-link" href="#showcase">Overview</a>
+                            <a class="nav-link" href="#features">Features</a>
+                            <a class="nav-link" href="news.html">News</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </div>
+                    </nav>
+                    <div class="theme-mode">
+                        <div class="theme-switch-wrapper">
+                            <label for="theme-toggle-switch">Light</label>
+                            <label class="theme-switch" for="theme-toggle-switch">
+                                <input type="checkbox" id="theme-toggle-switch" />
+                                <div class="slider round"></div>
+                            </label>
+                            <label for="theme-toggle-switch">Dark</label>
+                        </div>
+                    </div>
+            </header>
+            <div class="page-button">
+                <img src="/images/icons/bx-home-alt.svg" alt="">
+                <a href="home.html">Home</a>
+                <i class="fa-solid fa-chevrons-right"></i>
+                <a class="page-contact" href="contact.html">Contact</a>
+            </div>
+            <h2>Contact Us</h2>
+            <div class="email-icon">
+                <img src="/images/icons/icon-mail.svg" alt="">
+            </div>
+            <div class="email-us">
+                <h4>Email us</h4>
+                <p>Please feel free to drop us a line. We will respond as soon as possible.</p>
+                <a href="">Leave a message <i class="fa-regular fa-arrow-right"></i></a>
+            </div>
+            <div class="career-icon">
+                <img src="/images/icons/icon-career.svg" alt="">
+            </div>
+            <div class="careers">
+                <h4>Careers</h4>
+                <p>Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.</p>
+                <a href="">Send an application<i class="fa-regular fa-arrow-right"></i></a>
+
+            </div>
+            <div class="consultation">
+                <h3>Get Online Consultation</h3>
+                <form id="consultationForm" class="inputs" onsubmit="handleSubmit(event)">
+                    <label for="fullname" class="input-label">Full name <span class="required">*</span></label>
+                    <input type="text" placeholder="" id="fullname" class="fullname-input" required>
+                    <label for="emailaddress" class="input-label">Email address <span class="required">*</span></label>
+                    <input type="email" placeholder="" id="emailaddress" class="emailaddress-input" required>
+                    <label for="specialist" class="input-label">Specialist</label>
+                    <input type="text" placeholder="" id="specialist" class="specialist-input">
+                    <label for="date" class="input-label">Date <span class="required">*</span></label>
+                    <input type="date" id="date" class="date-input" required>
+                    <label for="time" class="input-label">Time <span class="required">*</span></label>
+                    <input type="time" id="time" class="time-input" required>
+                    <button type="submit" class="btn btn-primary" id="consult-button">Submit</button>
+                </form>
+                <div style="height:100px;"></div>
+            </div>
+        </div>
+
+    </section>
+    <div style="height:100px;"></div>
+    <section class="maps">
+        <div class="content">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387297.2027275291!2d-74.25987597818909!3d40.69767000579813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a2bc7d00e9d%3A0x8c0868f5f4a1debc!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1618256983849!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+    
+            <div class="medical-one">
+                <h4>Medical Center 1</h4>
+                <p> <img src="/images/icons/bx-map.svg" alt="">
+                    4517 Washington Ave. Manchester, Kentucky 39495</p>
+                    <p><img src="/images/icons/bx-phone-call.svg" alt="">(406) 555-0120</p>
+                    <p><img src="/images/icons/bx-time-five.svg" alt=""><strong>Mon - Fri</strong>: 9.00 am - 22:00 am</p>
+                    <p class="sat-sun"><strong>Sat-Sun</strong>: 9:00 am - 20:00 am</p>
+            </div>
+
+            <div class="medical-two">
+                <h4>Medical Center 2</h4>
+                <p> <img src="/images/icons/bx-map.svg" alt="">
+                    4517 Washington Ave. Manchester, Kentucky 39495</p>
+                    <p><img src="/images/icons/bx-phone-call.svg" alt="">(406) 555-0120</p>
+                    <p><img src="/images/icons/bx-time-five.svg" alt=""><strong>Mon - Fri</strong>: 9:00 am - 22:00 am</p>
+                    <p class="sat-sun"><strong>Sat-Sun</strong>: 9:00 am - 20:00 am</p>
+            </div>
+            <div class="socials">
+                <img src="/images/icons/icon-facebook.svg" alt="">
+                <img src="/images/icons/icon-twitter.svg" alt="">
+                <img src="/images/icons/icon-insta.svg" alt="">
+                <img src="/images/icons/icon-youtube.svg" alt="">
+
+            </div>
+        </div>
+
+    </section>
+    <script src="js/contact.js"></script>
+
+</body>
+
+</html>

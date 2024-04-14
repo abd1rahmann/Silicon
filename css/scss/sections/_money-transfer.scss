@@ -1,0 +1,119 @@
+#money-transfer {
+    width: 100%;
+    background: $gradient-background;
+
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+
+        .img-transfer {
+            grid-column: 2;
+            margin-top: 20px;
+
+        }
+
+        .money-text {
+
+            padding: -80px;
+            margin-left: 180px;
+            position: relative;
+            bottom: 470px;
+        }
+
+        .learn-more {
+            width: 200px;
+            position: relative;
+            margin-left: -590px;
+            bottom: 220px;
+        }
+
+        .img-receive {
+            padding-top: 200px;
+            margin-top: -300px;
+            margin-left: 180px;
+        }
+
+        .receive {
+            text-align: start;
+
+            .receive-icons {
+
+                display: grid;
+                grid-template-columns: 1fr;
+                /* En kolumn */
+                grid-auto-flow: column;
+                /* Lägg till innehåll i kolumner först */
+                gap: 20px;
+                /* Avstånd mellan ikoner och texter */
+                text-align: center;
+
+                .first-icon {
+                    padding: 20px;
+                    padding-right: 100px;
+                    margin-bottom: 300px;
+                    text-align: start;
+                    position: relative;
+                    margin-right: 100px;
+                    right: 20px;
+
+                }
+
+                .second-icon {
+                    padding-left: -20px;
+                    margin-top: 18px;
+                    text-align: start;
+                    position: relative;
+                    right: 200px;
+
+
+                }
+
+                .second-icon p {
+                    margin-bottom: 1px;
+
+                }
+
+            }
+
+            .learn-more {
+                grid-column: 1 / -1;
+                text-align: left;
+                margin-left: 0px;
+                bottom: 300px;
+            }
+
+
+        }
+
+        .clients-text {
+            margin-left: 50px;
+        }
+
+        .reviews {
+            display: flex;
+            bottom: 400px;
+            margin-left: -240px;
+        }
+
+        .clients-button button {
+            border: none;
+            font-size: 30px;
+            background-color: transparent;
+        }
+
+        .clients-button {
+            margin-left: 45px;
+            margin-top: -220px;
+        }
+
+        .clients-button button:hover {
+            background-color: transparent;
+            color: #2600ff;
+            transition: all 0.3s ease;
+
+
+        }
+
+    }
+}

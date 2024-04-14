@@ -1,0 +1,95 @@
+#app-function {
+    background-color: $gray-300;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        /* Ställer in flexriktningen till kolumn */
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            /* Lägger till lite mellanrum nedåt */
+        }
+
+        .content {
+            position: relative;
+
+            .img-left,
+            .img-right,
+            .img-middle {
+                margin: 0 50px;
+            }
+
+            .img-left,
+            .img-right {
+                flex: 0 0 10%;
+
+            }
+
+            h3 {
+                margin-left: 380px;
+                margin-top: 50px;
+            }
+
+            .p-text {
+                padding-left: 150px;
+
+            }
+
+            .left-button {
+                margin-left: -20px;
+                position: absolute;
+                top: 35%;
+                left: 0;
+                /* Justera detta värde enligt din design */
+                padding: 10px 20px;
+                background-color: transparent;
+                color: $gray-800;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+            .left-button button i {
+                font-size: 30px; /* Justera detta värde för att göra ikonen större */
+            }
+
+            .left-button button:hover {
+                background-color: transparent; /* Ändra bakgrundsfärg när musen hovrar över knappen */
+                color: #2600ff; /* Ändra textfärg när musen hovrar över knappen */
+            }
+
+            .right-button {
+                margin-right: -20px;
+                position: absolute;
+                top: 35%;
+                right: 0;
+                /* Justera detta värde enligt din design */
+                padding: 10px 20px;
+                background-color: transparent;
+                color: $gray-800;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+            .right-button button i {
+                font-size: 30px; /* Justera detta värde för att göra ikonen större */
+            }
+
+            .right-button button:hover {
+                background-color: transparent; /* Ändra bakgrundsfärg när musen hovrar över knappen */
+                color: #2600ff; /* Ändra textfärg när musen hovrar över knappen */
+            }
+
+
+
+
+        }
+    }
+}

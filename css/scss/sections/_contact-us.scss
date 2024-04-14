@@ -1,0 +1,110 @@
+.contact-us {
+    background-color: $gray-300;
+
+    .content {
+
+        .consultation {
+            flex-grow: 1;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid $gray-600;
+            display: grid;
+            margin-left: 800px;
+            margin-right: 200px;
+            margin-top: -480px;
+
+
+
+            .inputs {
+                display: grid;
+                grid-template-columns: auto;
+                padding-left: 100px;
+                gap: 20px;
+
+
+                .fullname-input,
+                .emailaddress-input,
+                .specialist-input,
+                .date-input,
+                .time-input {
+                    border-radius: 5px;
+                    width: 200px;
+                }
+
+                .time {
+                    margin-left: 210px;
+                    margin-top: -93px;
+                }
+
+                .input-label {
+                    font-weight: bold;
+                }
+                
+                #consult-button{
+                    margin-right: 250px;
+                }
+            }
+
+        }
+
+        .consultation h3 {
+            margin-left: 90px;
+            margin-top: 40px;
+        }
+
+        .page-button {
+            margin-left: 100px;
+
+            .page-contact {
+                color: blue;
+            }
+        }
+
+        .page-button img {
+            margin-bottom: 5px;
+        }
+
+        .page-button a {
+            color: grey;
+        }
+
+        .email-us {
+            display: grid;
+            margin-left: 200px;
+            margin-top: 90px;
+            padding-right: 1100px;
+        }
+
+        .careers {
+            display: grid;
+            margin-left: 200px;
+            margin-top: 30px;
+            padding-right: 1100px;
+
+        }
+
+        .email-icon {
+            position: absolute; 
+            top: 300px; 
+            margin-left: 110px;
+        }
+
+        .career-icon {
+            position: absolute; 
+            top: 470px; 
+            margin-left: 110px;
+
+        }
+    }
+
+    .content img{
+        padding-bottom: 0px;
+    }
+
+    .content h2 {
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+
+    
+}

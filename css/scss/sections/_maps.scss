@@ -1,0 +1,42 @@
+.maps{
+    display: grid;
+
+   .content{
+    .map{
+        margin-left: 200px;
+        
+    }
+
+    .medical-one{
+        margin-left: 1000px;
+        margin-top: -450px;
+    }
+    .medical-two{
+        margin-left: 1000px;
+        padding-top: 30px;
+    }
+
+    .medical-one img {
+        margin-right: 10px; /* Lägg till mellanrum till höger om bilderna */
+    }
+
+    .medical-two img {
+        margin-right: 10px; /* Lägg till mellanrum till höger om bilderna */
+    }
+
+    .sat-sun{
+        margin-left: 30px;
+    }
+
+    .socials{
+        text-align: end;
+        margin-right: 335px;
+    }
+
+    .socials img{
+        
+    }
+   }
+
+
+}

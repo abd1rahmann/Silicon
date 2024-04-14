@@ -1,0 +1,61 @@
+#app-features {
+    width: 100%;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        max-height: 800px;
+
+        .img-sec {
+            margin-right: 20px;
+            /* Lägg till ett mellanrum till höger om bilden */
+            flex: 0 0 auto;
+            /* Låt bilden ta minimalt utrymme */
+
+        }
+
+        .content-sec {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            /* Placera innehållet i mitten vertikalt */
+            margin-left: 20px;
+            /* Lägg till lite mellanrum mellan bilden och kolumnerna */
+
+            .row {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                /* Lägg till mellanrum mellan raderna */
+            }
+
+            .single-sec {
+                display: flex;
+                align-items: center;
+                /* Centrera vertikalt */
+                padding: 10px;
+                /* Lägg till lite utrymme runt varje single-sec */
+                max-width: calc(50% - 20px);
+                /* Begränsa bredden till hälften av kolumnens bredd */
+            }
+
+            .icon-div img {
+                vertical-align: middle;
+                /* Placera ikonen i mitten vertikalt */
+                margin-right: 10px;
+                /* Lägg till lite mellanrum mellan ikonen och h4-elementen */
+                margin-bottom: 55px;
+            }
+
+            .icon-txt {
+                flex: 1;
+                /* Fyll resten av utrymmet bredvid ikonerna */
+            }
+        }
+
+
+    }
+
+
+
+}

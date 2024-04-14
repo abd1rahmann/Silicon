@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a041cc045c.js" crossorigin="anonymous"></script>
+    <link href="css/layout.min.css" rel="stylesheet">
+    <title></title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <a class="logo" href="home.html"><img src="images/logo/silicon-logo-light_theme.svg"
+                        alt="silicon logotype"></a>
+
+                <nav class="menu">
+                    <div class="menu-links">
+                        <a class="nav-link" href="#showcase">Overview</a>
+                        <a class="nav-link" href="#features">Features</a>
+                        <a class="nav-link" href="news.html">News</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </div>
+                </nav>
+
+                <div class="theme-mode">
+                    <div class="theme-switch-wrapper">
+                        <label for="theme-toggle-switch">Light</label>
+                        <label class="theme-switch" for="theme-toggle-switch">
+                            <input type="checkbox" id="theme-toggle-switch" />
+                            <div class="slider round"></div>
+                        </label>
+                        <label for="theme-toggle-switch">Dark</label>
+                    </div>
+                </div>
+
+                <a id="btn-account" class="btn btn-theme" href="signin.html"><i class="fa-regular fa-user"></i> Sign in
+                    / up</a>
+
+                <button class="btn-menu" onclick="toggleMenu()"><i class="fa-regular fa-bars"></i></button>
+            </div>
+        </header>
+        <main>
+
+            <section id="showcase">
+                <div class="container">
+                    <div class="content">
+                        <h1>Manage All Your Money in One App</h1>
+                        <p>We offer you a new generation of the mobile banking. Save, spend & manage money in your
+                            pocket.</p>
+
+                        <div class="download-app">
+                            <a class="appstore" href="#"><img src="images/appstore.svg" alt="Download on Appstore"></a>
+                            <a class="googleplay" href="#"><img src="images/googleplay.svg"
+                                    alt="Download on Google Play"></a>
+                        </div>
+
+                        <a class="more" href="#"><i class="fa-solid fa-chevron-down"></i> Discover more</a>
+                    </div>
+                    <img id="showcase-image" src="images/showcase-mobiles.svg" alt="two mobile phones">
+                </div>
+            </section>
+
+            <section id="brands">
+                <div class="container">
+                    <div class="box"><img src="images/brands/brand_1.svg" alt="brand 1"></div>
+                    <div class="box"><img src="images/brands/brand_2.svg" alt="brand 2"></div>
+                    <div class="box"><img src="images/brands/brand_3.svg" alt="brand 3"></div>
+                    <div class="box"><img src="images/brands/brand_4.svg" alt="brand 4"></div>
+                    <div class="box"><img src="images/brands/brand_5.svg" alt="brand 5"></div>
+                    <div class="box"><img src="images/brands/brand_6.svg" alt="brand 6"></div>
+                </div>
+            </section>
+
+
+            <section id="app-features">
+                <div class="container">
+                    <div class="img-sec">
+                        <img src="images/mobile-appfeatures.svg" alt="">
+                    </div>
+                    <div class="content-sec">
+                        <div class="cont-desc">
+                            <h2>App Features</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas.
+                                Nam luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at
+                                nec lacus.</p>
+                        </div>
+                        <div class="row">
+                            <div class="single-sec">
+                                <div class="icon-div"><img src="/images/icons/iconpayment.svg" alt=""></div>
+                                <div class="icon-txt">
+                                    <h4>Easy Payments</h4>
+                                    <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+                                </div>
+                            </div>
+                            <div class="single-sec">
+                                <div class="icon-div"><img src="/images/icons/icondata.svg" alt=""></div>
+                                <div class="icon-txt">
+                                    <h4>Data Security</h4>
+                                    <p>Augue pulvinar justo, fermentum fames aliquam accumsan vestibulum non. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="single-sec">
+                                <div class="icon-div"><img src="/images/icons/iconcost.svg" alt=""></div>
+                                <div class="icon-txt">
+                                    <h4>Cost Statistics</h4>
+                                    <p>Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.</p>
+                                </div>
+                            </div>
+                            <div class="single-sec">
+                                <div class="icon-div"><img src="/images/icons/iconsupport.svg" alt=""></div>
+                                <div class="icon-txt">
+                                    <h4>Support 24/7</h4>
+                                    <p>A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="single-sec">
+                                <div class="icon-div"><img src="/images/icons/iconcash.svg" alt=""></div>
+                                <div class="icon-txt">
+                                    <h4>Regular Cashback</h4>
+                                    <p>Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-sec">
+                                <div class="icon-div"><img src="/images/icons/iconstandard.svg" alt=""></div>
+                                <div class="icon-txt">
+                                    <h4>Top Standards</h4>
+                                    <p>Faucibus cursus maecenas lorem cursus nibh. Sociis sit risus id. Sit facilisis
+                                        dolor arcu.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div style="height:200px;"></div>
+
+            <section id="app-function">
+                <div class="container">
+                    <h1>How does it work?</h1>
+                    <div class="content">
+                        <div class="left-button">
+                            <button class="left-button"><i class="fa-duotone fa-circle-chevron-left"></i></button>
+                        </div>
+
+                        <img class="img-left" src="/images/mobile-howdoesitwork_1.svg" alt="">
+
+                        <img class="img-middle" src="/images/mobile-howdoesitwork_2.svg" alt="">
+                        <div class="right-button">
+                            <button class="right-button"><i class="fa-duotone fa-circle-chevron-right"></i></button>
+                        </div>
+                        <img class="img-right" src="/images/mobile-howdoesitwork_3.svg" alt="">
+                        <h3>Step 2. Latest transaction history</h3>
+                        <div class="p-text">
+                            <p>Enim, et amet praesent pharetra. Mi non ante hendrerit amet sed. Arcu sociis tristique
+                                quisque hac in consectetur condimentum. </p>
+                        </div>
+                    </div>
+                </div>
+                <div style="height:100px;"></div>
+
+            </section>
+
+            <div style="height:150px;"></div>
+
+
+            <section id="money-transfer">
+                <div class="content">
+                    <div class="img-transfer">
+                        <img src="/images/image-transfer.svg" alt="">
+                    </div>
+
+                    <div class="money-text">
+                        <h2>Make your money</h2>
+                        <h2>transfer simple and clear</h2>
+                        <p><img src="./images/icons/bx-check-circle.svg" alt="">Banking transaction are free for you</p>
+                        <p><img src="./images/icons/bx-check-circle.svg" alt="">No monthly cash commission</p>
+                        <p><img src="./images/icons/bx-check-circle.svg" alt="">Manage payments and transactions online
+                        </p>
+
+                    </div>
+                    <div class="learn-more">
+                        <a id="btn-account" class="btn btn-theme" href="learnmore.html">
+                            Learn More<i class="fa-regular fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="img-receive">
+                        <img src="/images/receive-payment.svg" alt="">
+                    </div>
+
+                    <div class="receive">
+                        <h2>Receive payments from</h2>
+                        <h2>international bank details</h2>
+                        <div class="receive-icons">
+                            <div class="first-icon"><img src="/images/icons/iconcard.svg" alt="">
+                                <p>Manage your payments online. Mollis congue egestas egestas fermentum fames.</p>
+                            </div>
+                            <div class="second-icon"> <img src="/images/icons/iconcash.svg" alt="">
+                                <p>A elementur and imperdiet enim,</p>
+                                <p>pretium etiam facilisi aenean </p>
+                                <p>quam mauris.</p>
+                            </div>
+
+
+
+                        </div>
+                        <div class="learn-more">
+                            <a id="btn-account" class="btn btn-theme" href="learnmore.html">
+                                Learn More<i class="fa-regular fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="clients-text">
+                        <h1>Clients are</h1>
+                        <h1>Loving Our App</h1>
+                    </div>
+                    <div class="reviews">
+                        <img src="/images/testimonial-one.svg" alt="">
+                        <img src="/images/testimonial.svg" alt="">
+                    </div>
+                    <div class="clients-button">
+                        <button><i class="fa-duotone fa-circle-chevron-left"></i></button>
+                        <button><i class="fa-duotone fa-circle-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div style="height:100px;"></div>
+
+            </section>
+            <div style="height:100px;"></div>
+
+            <section class="questions">
+                <div class="content">
+                    <div class="text">
+                        <h2>Any questions?</h2>
+                        <h2>Check out the FAQs</h2>
+                        <p>Still have unanswered questions and need to get in touch?</p>
+                    </div>
+
+
+
+                    <div class="contact">
+                        <div class="contact-call">
+                            <img src="/images/icons/icon-call.svg" alt="">
+                            Still have questions?
+                            <button>
+                                <p>Contact us</p>
+                            </button><i class="fa-regular fa-arrow-right"></i>
+                        </div>
+                        <div class="contact-sms">
+                            <img src="/images/icons/icon-sms.svg" alt="">
+                            Don't like phone calls?
+                            <button>
+                                <p>Contact us</p>
+                            </button><i class="fa-regular fa-arrow-right"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="card">
+                        <div class="heading">
+                            <button data-toggle="collapse" data-toggle-target="card-body-1">Is any of my personal
+                                information stored in the App?</button>
+                            <i class="fa-regular fa-chevron-down"></i>
+                        </div>
+                        <div id="card-body-1" class="card-body d-none">
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="heading">
+                            <button data-toggle="collapse" data-toggle-target="card-body-2">What formats can i
+                                download my transaction history in?</button>
+                            <i class="fa-regular fa-chevron-down"></i>
+                        </div>
+                        <div id="card-body-2" class="card-body d-none">
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="heading">
+                            <button data-toggle="collapse" data-toggle-target="card-body-3">Can I schedule future
+                                transfers?</button>
+                            <i class="fa-regular fa-chevron-down"></i>
+                        </div>
+                        <div id="card-body-3" class="card-body d-none">
+                            Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu,
+                            viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu
+                            velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem
+                            scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis
+                            egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="heading">
+                            <button data-toggle="collapse" data-toggle-target="card-body-4">When can I use Banking
+                                App services?</button>
+                            <i class="fa-regular fa-chevron-down"></i>
+                        </div>
+                        <div id="card-body-4" class="card-body d-none">
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="heading">
+                            <button data-toggle="collapse" data-toggle-target="card-body-5">Can I create my own
+                                password that is easy for me to remember?</button>
+                            <i class="fa-regular fa-chevron-down"></i>
+                        </div>
+                        <div id="card-body-5" class="card-body d-none">
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="heading">
+                            <button data-toggle="collapse" data-toggle-target="card-body-6">What happens if I forget
+                                or lose my password?</button>
+                            <i class="fa-regular fa-chevron-down"></i>
+                        </div>
+                        <div id="card-body-6" class="card-body d-none">
+
+                        </div>
+                    </div>
+                </div>
+                <div style="height:100px;"></div>
+
+            </section>
+
+            <section class="subscribe">
+                <div class="content">
+                    
+                    <img src="/images/icons/notification.svg" alt="">
+                    <h4>Subscribe to our newsletter to stay informed about latest updates</h4>
+                    
+                    <form action="" class="inputs">
+                        <input type="text" placeholder="Your email" class="email-input" id="email" type="email" required>
+                        <div id="emailError" class="error-message"></div>
+                    </form>
+
+                        <button class="btn btn-primary" id="subscribe-button">
+                            <p>Subscribe</p> 
+                        </button>
+
+                </div>
+                <div style="height:100px;"></div>
+            </section>
+
+
+        </main>
+        <footer>
+            <div style="height:100px;"></div>
+
+            <div class="silicon-img">
+                <img src="/images/logo/silicon-logo-light_theme.svg" alt="">
+
+            </div>
+            <div class="menu-links">
+                <a class="nav-link" href="#showcase">Overview</a>
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+
+            <div class="app-download">
+                <img src="/images/appstore.svg" alt="">
+                <img src="/images/googleplay.svg" alt="">
+            </div>
+
+            <div class="social-media">
+                <img src="/images/icons/facebook.svg" alt="">
+                <img src="/images/icons/twitter.svg" alt="">
+                <img src="/images/icons/instagram.svg" alt="">
+                <img src="/images/icons/youtube.svg" alt="">
+
+            </div>
+
+            <p>2024. All rights reserved. Pulvinar urna condimentum amet tempor, ornare integer. Lorem odio justo malesuada suspendisse viverra aliquet quisque turpis non. Feugiat in odio non nunc ornare consectetur.</p>
+        </footer>
+    </div>
+    <script>
+        const toggleMenu = () => {
+            const element = document.getElementById('menu')
+            if (element.style.display === "none") {
+                element.style.display = "block";
+                element.style.color = "#ffffff";
+            }
+            else {
+                element.style.display = "none";
+            }
+        }
+
+
+        document.getElementById('theme-toggle-switch').addEventListener('change', function (event) {
+            if (event.target.checked) {
+                document.body.classList.add('dark-mode');
+                document.body.classList.remove('light-mode');
+            } else {
+                document.body.classList.add('light-mode');
+                document.body.classList.remove('dark-mode');
+            }
+        });
+
+
+    </script>
+    <script src="js/accordion.js"></script>
+    <script src="js/subscribe.js"></script>
+
+
+
+</body>
+
+</html>

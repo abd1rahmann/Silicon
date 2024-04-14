@@ -1,0 +1,149 @@
+.questions{
+    width: 100%;
+
+    .content{
+        .text{
+            margin-left: 50px;
+        }
+    
+        .text p{
+            margin-top: 30px;
+        }
+
+        
+
+        .contact{
+            display: flex;
+            margin-top: -1px;
+            .contact-call{
+                display: grid;
+                border: 1px solid $gray-500;
+                text-align: right;
+                margin-left: 50px;
+                border-radius: 10px;
+                padding: 20px;
+
+            }
+
+            .contact-call img{
+                margin-bottom: 30px;
+            }
+
+            .contact-call button{
+                background: transparent;
+                border: none;
+                text-align: start;
+                margin-top: 20px;
+            }
+
+            .contact-call i{
+                margin-right: 40px;
+                margin-top: -39px;
+                color: #6366F1;
+            }
+
+            .contact-call p{
+                color: #6366F1;
+            }
+
+            .contact-call button:hover{
+                text-decoration: underline;
+                text-decoration-color: #3020a9;
+                transition: all 0.3s ease;
+                
+            }
+
+            .contact-call p:hover{
+                color: #3020a9;
+            }
+
+            .contact-sms{
+                display: grid;
+                border: 1px solid $gray-500;
+                text-align: right;
+                margin-left: 50px;
+                border-radius: 10px;
+                padding: 20px;
+            }
+
+            .contact-sms img{
+                margin-bottom: 30px;
+            }
+            
+            .contact-sms button{
+                background: transparent;
+                border: none;
+                text-align: start;
+                margin-top: 20px;
+            }
+
+            .contact-sms i{
+                margin-right: 50px;
+                margin-top: -39px;
+                color: #06d065;
+            }
+
+            .contact-sms p{
+                color: #06d065;
+            }
+
+            .contact-sms button:hover{
+                text-decoration: underline;
+                text-decoration-color: #06d065;
+                transition: all 0.3s ease;
+                
+            }
+
+            .contact-sms p:hover{
+                color: #059448;
+            }
+        }
+
+    }
+    .accordion-group{
+        margin-top: -150px;
+        .card {
+            margin-bottom: 10px;
+            margin-left: 800px;
+            bottom: 160px;
+        }
+        .heading {
+            position: relative;
+            padding: 10px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .heading i {
+            position: absolute;
+            right: 10px;
+            height: 36px;
+            width: 36px;
+            background-color: #F3F6FF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+        
+        .heading button {
+            position: relative;
+            background-color: transparent;
+            border: none;
+            width: 100%;
+            z-index: 10;
+            text-align: left;
+        }
+        i.active {
+            background-color: #6366F1 !important;
+            color: white;
+        }
+
+        .heading button:hover {
+            background-color: transparent;
+            color: #2600ff;
+            transition: all 0.3s ease;
+        }
+    }
+}
