@@ -1,0 +1,88 @@
+.contact-footer{
+    background-color: black;
+
+    .content{
+        img{
+            margin-left: 200px;
+            margin-top: 60px;
+        }
+
+        p{
+
+            padding-right: 500px;
+            text-align: start;
+        }
+
+        h6{
+            color: rgba(255, 255, 255, 0.855);
+            margin-left: 200px;
+
+        }
+
+        .contact-subscribe{
+
+            margin-top: 50px;
+            .inputs{
+                .email-input{
+                    margin-left: 200px;
+                    border-radius: 5px 0px 0px 5px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+
+                }
+    
+                .error-message{
+                    margin-left: 200px;
+                    position: absolute;
+                    color: red;
+                }
+            }
+    
+          
+    
+            button{
+                border-radius: 0 10px 10px 0;
+                margin-left: 397px;
+                margin-top: -67px;
+            }
+
+        }
+        .links-functions{
+            display: grid;
+            text-align: start;
+            margin-left: 900px;
+            margin-top: -350px;
+            gap: 5px;
+
+        }
+
+        .links-terms{
+            display: grid;
+            text-align: start;
+            margin-left: 900px;
+            margin-top: 40px;
+            gap: 5px;
+
+            
+        }
+
+        .links-socials{
+            display: grid;
+            text-align: start;
+            margin-left: 1100px;
+            margin-top: -243px;
+            gap: 5px;
+            
+        }
+
+        .example-mail{
+            display: grid;
+            margin-left: 1300px;
+            margin-top: -118px;
+        }
+
+        .rights{
+            margin-top: 350px;
+        }
+    }
+}

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 html, body {
   line-height: 160%;
@@ -520,43 +519,32 @@ header .container .btn-menu {
 }
 #app-features .container .img-sec {
   margin-right: 20px;
-  /* Lägg till ett mellanrum till höger om bilden */
   flex: 0 0 auto;
-  /* Låt bilden ta minimalt utrymme */
 }
 #app-features .container .content-sec {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* Placera innehållet i mitten vertikalt */
   margin-left: 20px;
-  /* Lägg till lite mellanrum mellan bilden och kolumnerna */
 }
 #app-features .container .content-sec .row {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  /* Lägg till mellanrum mellan raderna */
 }
 #app-features .container .content-sec .single-sec {
   display: flex;
   align-items: center;
-  /* Centrera vertikalt */
   padding: 10px;
-  /* Lägg till lite utrymme runt varje single-sec */
   max-width: calc(50% - 20px);
-  /* Begränsa bredden till hälften av kolumnens bredd */
 }
 #app-features .container .content-sec .icon-div img {
   vertical-align: middle;
-  /* Placera ikonen i mitten vertikalt */
   margin-right: 10px;
-  /* Lägg till lite mellanrum mellan ikonen och h4-elementen */
   margin-bottom: 55px;
 }
 #app-features .container .content-sec .icon-txt {
   flex: 1;
-  /* Fyll resten av utrymmet bredvid ikonerna */
 }
 
 #app-function {
@@ -565,14 +553,12 @@ header .container .btn-menu {
 #app-function .container {
   display: flex;
   flex-direction: column;
-  /* Ställer in flexriktningen till kolumn */
   justify-content: center;
   align-items: center;
 }
 #app-function .container h1 {
   margin-top: 50px;
   margin-bottom: 50px;
-  /* Lägger till lite mellanrum nedåt */
 }
 #app-function .container .content {
   position: relative;
@@ -598,7 +584,6 @@ header .container .btn-menu {
   position: absolute;
   top: 35%;
   left: 0;
-  /* Justera detta värde enligt din design */
   padding: 10px 20px;
   background-color: transparent;
   color: #33354D;
@@ -608,18 +593,17 @@ header .container .btn-menu {
   transition: all 0.3s ease;
 }
 #app-function .container .content .left-button button i {
-  font-size: 30px; /* Justera detta värde för att göra ikonen större */
+  font-size: 30px;
 }
 #app-function .container .content .left-button button:hover {
-  background-color: transparent; /* Ändra bakgrundsfärg när musen hovrar över knappen */
-  color: #2600ff; /* Ändra textfärg när musen hovrar över knappen */
+  background-color: transparent;
+  color: #2600ff;
 }
 #app-function .container .content .right-button {
   margin-right: -20px;
   position: absolute;
   top: 35%;
   right: 0;
-  /* Justera detta värde enligt din design */
   padding: 10px 20px;
   background-color: transparent;
   color: #33354D;
@@ -629,11 +613,11 @@ header .container .btn-menu {
   transition: all 0.3s ease;
 }
 #app-function .container .content .right-button button i {
-  font-size: 30px; /* Justera detta värde för att göra ikonen större */
+  font-size: 30px;
 }
 #app-function .container .content .right-button button:hover {
-  background-color: transparent; /* Ändra bakgrundsfärg när musen hovrar över knappen */
-  color: #2600ff; /* Ändra textfärg när musen hovrar över knappen */
+  background-color: transparent;
+  color: #2600ff;
 }
 
 #money-transfer {
@@ -672,11 +656,8 @@ header .container .btn-menu {
 #money-transfer .content .receive .receive-icons {
   display: grid;
   grid-template-columns: 1fr;
-  /* En kolumn */
   grid-auto-flow: column;
-  /* Lägg till innehåll i kolumner först */
   gap: 20px;
-  /* Avstånd mellan ikoner och texter */
   text-align: center;
 }
 #money-transfer .content .receive .receive-icons .first-icon {
@@ -861,18 +842,23 @@ header .container .btn-menu {
   align-items: center;
   position: relative;
 }
-.subscribe .content #subscribe-button {
-  border-radius: 0 10px 10px 0;
-  margin-left: -50px;
-  margin-top: -1px;
+.subscribe .content .subscribe-container {
+  display: inline-block;
 }
-.subscribe .content .email-input {
+.subscribe .content .subscribe-container #subscribe-button {
+  border-radius: 0 10px 10px 0;
+  margin-left: -54px;
+  margin-top: -3.5px;
+  height: 40px;
+}
+.subscribe .content .subscribe-container .email-input {
   margin-right: 50px;
-  font-size: 36.5px;
   border-radius: 10px 0 0 10px;
   border-color: #E2E5F1;
+  flex: 1;
+  height: 40px;
 }
-.subscribe .content .email-input::-moz-placeholder {
+.subscribe .content .subscribe-container .email-input::-moz-placeholder {
   font-size: 20px;
   color: #999;
   content: "\f0e0";
@@ -883,7 +869,7 @@ header .container .btn-menu {
   transform: translateY(-50%);
   color: #ccc;
 }
-.subscribe .content .email-input::placeholder {
+.subscribe .content .subscribe-container .email-input::placeholder {
   font-size: 20px;
   color: #999;
   content: "\f0e0";
@@ -894,11 +880,10 @@ header .container .btn-menu {
   transform: translateY(-50%);
   color: #ccc;
 }
-.subscribe .content .error-message {
+.subscribe .content .subscribe-container .error-message {
   color: red;
   position: absolute;
-  top: 100%;
-  left: 950px;
+  left: 995px;
 }
 .subscribe .content h4 {
   margin-top: 0;
@@ -977,6 +962,9 @@ footer p {
 }
 .contact-us .content .consultation .inputs #consult-button {
   margin-right: 250px;
+  width: 48%;
+  text-align: start;
+  padding-left: -20px;
 }
 .contact-us .content .consultation h3 {
   margin-left: 90px;
@@ -1032,22 +1020,91 @@ footer p {
 }
 .maps .content .medical-one {
   margin-left: 1000px;
-  margin-top: -450px;
+  margin-top: -590px;
 }
 .maps .content .medical-two {
   margin-left: 1000px;
   padding-top: 30px;
+  margin-top: 20px;
 }
 .maps .content .medical-one img {
-  margin-right: 10px; /* Lägg till mellanrum till höger om bilderna */
+  margin-right: 10px;
 }
 .maps .content .medical-two img {
-  margin-right: 10px; /* Lägg till mellanrum till höger om bilderna */
+  margin-right: 10px;
 }
 .maps .content .sat-sun {
   margin-left: 30px;
 }
 .maps .content .socials {
   text-align: end;
-  margin-right: 335px;
+  margin-right: 270px;
+  margin-top: 105px;
+}
+.maps .content .socials img {
+  margin-right: 15px;
+}
+
+.contact-footer {
+  background-color: black;
+}
+.contact-footer .content img {
+  margin-left: 200px;
+  margin-top: 60px;
+}
+.contact-footer .content p {
+  padding-right: 500px;
+  text-align: start;
+}
+.contact-footer .content h6 {
+  color: rgba(255, 255, 255, 0.855);
+  margin-left: 200px;
+}
+.contact-footer .content .contact-subscribe {
+  margin-top: 50px;
+}
+.contact-footer .content .contact-subscribe .inputs .email-input {
+  margin-left: 200px;
+  border-radius: 5px 0px 0px 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.contact-footer .content .contact-subscribe .inputs .error-message {
+  margin-left: 200px;
+  position: absolute;
+  color: red;
+}
+.contact-footer .content .contact-subscribe button {
+  border-radius: 0 10px 10px 0;
+  margin-left: 397px;
+  margin-top: -67px;
+}
+.contact-footer .content .links-functions {
+  display: grid;
+  text-align: start;
+  margin-left: 900px;
+  margin-top: -350px;
+  gap: 5px;
+}
+.contact-footer .content .links-terms {
+  display: grid;
+  text-align: start;
+  margin-left: 900px;
+  margin-top: 40px;
+  gap: 5px;
+}
+.contact-footer .content .links-socials {
+  display: grid;
+  text-align: start;
+  margin-left: 1100px;
+  margin-top: -243px;
+  gap: 5px;
+}
+.contact-footer .content .example-mail {
+  display: grid;
+  margin-left: 1300px;
+  margin-top: -118px;
+}
+.contact-footer .content .rights {
+  margin-top: 350px;
 }

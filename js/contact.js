@@ -1,7 +1,6 @@
 async function handleSubmit(event) {
     event.preventDefault();
 
-    // Hämta formulärdata
     const formData = {
         fullname: document.getElementById('fullname').value,
         email: document.getElementById('emailaddress').value,
@@ -10,10 +9,10 @@ async function handleSubmit(event) {
         time: document.getElementById('time').value
     };
 
-    console.log(JSON.stringify(formData)); // Logga formulärdatan
+    console.log(JSON.stringify(formData)); 
 
     try {
-        // Gör en HTTP POST-begäran
+
         const response = await fetch('https://kyhnet23-assignment.azurewebsites.net/api/book-appointment', {
             method: 'POST',
             headers: {
@@ -29,13 +28,13 @@ async function handleSubmit(event) {
         const data = await response.json();
         if (data !== null) {
             console.log('Success:', data);
-            // Här kan du visa ett meddelande till användaren att det lyckades
+
         } else {
             console.log('Empty response');
-            // Hantera tomt svar här om det behövs
+
         }
     } catch (error) {
         console.error('Error:', error);
-        // Här kan du visa ett felmeddelande till användaren
+
     }
 }

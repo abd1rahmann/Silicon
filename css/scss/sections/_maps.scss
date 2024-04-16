@@ -1,42 +1,45 @@
-.maps{
+.maps {
     display: grid;
 
-   .content{
-    .map{
-        margin-left: 200px;
-        
-    }
+    .content {
+        .map {
+            margin-left: 200px;
+        }
 
-    .medical-one{
-        margin-left: 1000px;
-        margin-top: -450px;
-    }
-    .medical-two{
-        margin-left: 1000px;
-        padding-top: 30px;
-    }
+        .medical-one {
+            margin-left: 1000px;
+            margin-top: -590px;
+        }
 
-    .medical-one img {
-        margin-right: 10px; /* Lägg till mellanrum till höger om bilderna */
-    }
+        .medical-two {
+            margin-left: 1000px;
+            padding-top: 30px;
+            margin-top: 20px;
+        }
 
-    .medical-two img {
-        margin-right: 10px; /* Lägg till mellanrum till höger om bilderna */
-    }
+        .medical-one img {
+            margin-right: 10px;
+        }
 
-    .sat-sun{
-        margin-left: 30px;
-    }
+        .medical-two img {
+            margin-right: 10px;
+        }
 
-    .socials{
-        text-align: end;
-        margin-right: 335px;
-    }
+        .sat-sun {
+            margin-left: 30px;
+        }
 
-    .socials img{
-        
+        .socials {
+            text-align: end;
+            margin-right: 270px;
+            margin-top: 105px;
+        }
+
+        .socials img {
+            margin-right: 15px;
+            
+        }
     }
-   }
 
 
 }

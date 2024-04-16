@@ -4,14 +4,12 @@
     .container {
         display: flex;
         flex-direction: column;
-        /* Ställer in flexriktningen till kolumn */
         justify-content: center;
         align-items: center;
 
         h1 {
             margin-top: 50px;
             margin-bottom: 50px;
-            /* Lägger till lite mellanrum nedåt */
         }
 
         .content {
@@ -44,7 +42,6 @@
                 position: absolute;
                 top: 35%;
                 left: 0;
-                /* Justera detta värde enligt din design */
                 padding: 10px 20px;
                 background-color: transparent;
                 color: $gray-800;
@@ -55,12 +52,12 @@
             }
 
             .left-button button i {
-                font-size: 30px; /* Justera detta värde för att göra ikonen större */
+                font-size: 30px;
             }
 
             .left-button button:hover {
-                background-color: transparent; /* Ändra bakgrundsfärg när musen hovrar över knappen */
-                color: #2600ff; /* Ändra textfärg när musen hovrar över knappen */
+                background-color: transparent; 
+                color: #2600ff; 
             }
 
             .right-button {
@@ -68,7 +65,6 @@
                 position: absolute;
                 top: 35%;
                 right: 0;
-                /* Justera detta värde enligt din design */
                 padding: 10px 20px;
                 background-color: transparent;
                 color: $gray-800;
@@ -79,12 +75,12 @@
             }
 
             .right-button button i {
-                font-size: 30px; /* Justera detta värde för att göra ikonen större */
+                font-size: 30px; 
             }
 
             .right-button button:hover {
-                background-color: transparent; /* Ändra bakgrundsfärg när musen hovrar över knappen */
-                color: #2600ff; /* Ändra textfärg när musen hovrar över knappen */
+                background-color: transparent; 
+                color: #2600ff; 
             }
 
 

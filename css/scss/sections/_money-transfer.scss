@@ -41,11 +41,8 @@
 
                 display: grid;
                 grid-template-columns: 1fr;
-                /* En kolumn */
                 grid-auto-flow: column;
-                /* Lägg till innehåll i kolumner först */
                 gap: 20px;
-                /* Avstånd mellan ikoner och texter */
                 text-align: center;
 
                 .first-icon {
